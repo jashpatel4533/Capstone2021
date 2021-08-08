@@ -1,4 +1,4 @@
-# Capstone2021
+# WFH Anti-Phisher Tool
 Setup requirements:
 1. AWS workspace
 2. Get https://github.com/taniarascia/webpack-boilerplate
@@ -8,8 +8,11 @@ Setup requirements:
 6. yarn
 
 Setup:
-First thing you need to do get the webpack boilerplate and replace the webpack.config with my config file.(make sure the path is correct in the config file)
-linux command: 
+First thing setup node.js server.
+
+You need to do get the webpack boilerplate, add my files in that repository  and replace the webpack.config with my config file.(make sure the path is correct in the config file)
+
+Linux command: 
 1. yarn or npm
 2. yarn run start or npm run start
 

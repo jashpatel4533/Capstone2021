@@ -1,0 +1,30 @@
+body {
+  background-color: red;
+}
+span {
+  content: "\26A0";
+  padding-left: 400px;
+  color: white;
+
+}
+h1.title{
+  color:  white;
+  padding-left: 400px;
+}
+h4.warningtext{
+  color:  white;
+  padding-left: 400px;
+  width: 800px;
+}
+.button{
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  border: none;
+  color: white;
+
+}
+
+
+
+

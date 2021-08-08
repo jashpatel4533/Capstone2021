@@ -1,0 +1,26 @@
+{
+  "name": "Anti-Phisher-Tool",
+  "version": "1.0",
+  "description": "Secure Web Browsing",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Anti-Phisher Tool",
+    "default_popup": "popup.html"
+  },
+   "content_scripts": [
+  {
+    "matches": ["https://developer.mozilla.org/*"],
+    "js": ["content.bundle.js"]
+
+  }
+],
+  "background": {
+      "page": "background.html"
+  },
+   "permissions": ["tabs", "webRequest","webRequestBlocking","activeTab","<all_urls>","file:///*"],
+
+  "web_accessible_resources": ["warning.html"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  
+
+}

@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+ <!-- <link rel="stylesheet" href="./css/warning.css">-->
+</head>
+<style type="text/css">
+  body {
+  background-color: red;
+}
+span {
+  content: "\26A0";
+  padding-left: 400px;
+  color: white;
+
+}
+h1.title{
+  color:  white;
+  padding-left: 400px;
+}
+h4.warningtext{
+  color:  white;
+  padding-left: 400px;
+  width: 800px;
+}
+.button{
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  border: none;
+  color: white;
+
+}  
+</style>
+<body class="body">
+  <meta charset="UTF-8">
+  <span style="font-size: 1000%;">&#9888;</span>
+  <h1 class="title" id="maintitle">Deceptive Website Ahead!!</h1>
+  <h4 class="warningtext" id="warning">Extension blocked this website because the website may trick you into something dangerous to steal your information (for example; creddential, credit cards, messages etc.</h4>
+ <div >
+    <form style="float: left;padding-left: 400px; margin-top: 100px;">
+      <input type="button" id="ignoreRisk" class="button" value="Continue Anyway" style="background-color: #FF6666;" onclick="redirectUrl()"/>
+    </form>
+    <form style="float: right;padding-right: 300px;margin-top: 100px;">
+      <input type="button" id="backtosafety" class="button" value="Back To Safety" style="background-color: #FF6666;" onclick="redirectToSafety()"/>
+    </form>
+  </div>  
+  <script type = "text/javascript" src="warning.js"></script>
+</body>
+</html>

@@ -10,7 +10,7 @@ Setup requirements:
 Setup:
 First thing setup node.js server.
 
-You need to do get the webpack boilerplate, add my files in that repository  and replace the webpack.config with my config file.(make sure the path is correct in the config file)
+You need to do get the webpack boilerplate, add my files in that repository, remove src folder  and replace the webpack.config with my config file.(make sure the path is correct in the config file)
 
 Linux command: 
 1. yarn or npm

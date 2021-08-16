@@ -1,7 +1,7 @@
 # WFH Anti-Phisher Tool
 Setup requirements:
 1. AWS workspace
-2. Get https://github.com/taniarascia/webpack-boilerplate
+2. Get https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate.git
 3. node version >12
 4. d3-fetch
 5. brain.js
